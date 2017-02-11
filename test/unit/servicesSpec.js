@@ -3,9 +3,9 @@
 describe('service', function() {
 
   // load modules
-  beforeEach(module('contactApp'));	
+  beforeEach(module('userApp'));	
   // Test service availability
-  it('check the existence of Contacts factory', inject(function(Contacts) {
-      expect(Contacts).toBeDefined();
+  it('check the existence of User factory', inject(function(Users) {
+      expect(Users).toBeDefined();
     }));
 });

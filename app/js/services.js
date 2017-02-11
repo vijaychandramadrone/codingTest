@@ -2,7 +2,7 @@
 
 /* Services */
 
-var contactServices = angular.module('contactServices', ['ngResource']);
+var contactServices = angular.module('userServices', ['ngResource']);
   
  contactServices.factory('Users', ['$resource',
   function($resource){

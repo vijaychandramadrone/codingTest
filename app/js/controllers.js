@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var contactControllers = angular.module('contactControllers', []);
+var contactControllers = angular.module('userControllers', []);
 
 
 contactControllers.controller('userListCtrl', ['$scope', 'Users',

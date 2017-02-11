@@ -4,9 +4,9 @@
 
 var phonecatApp = angular.module('userApp', [
   'ngRoute',
-  'contactControllers',
-  'contactServices',
-  'contactFilters'
+  'userControllers',
+  'userServices',
+  'userFilters'
 ]);
 
 phonecatApp.config(['$routeProvider',
