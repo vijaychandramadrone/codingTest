@@ -2,7 +2,7 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('contactApp', [
+var phonecatApp = angular.module('userApp', [
   'ngRoute',
   'contactControllers',
   'contactServices',
