@@ -1,0 +1,23 @@
+<p><h2><b>Users Information</h2></b></p>
+<table>
+  <tr>
+    <th ng-click="sortData('userId')" style="width:70px;">
+    	UserID<span ng-class="displayIcon('userId')"></span>
+    </th>
+    <th ng-click="sortData('id')">
+    	ID<span ng-class="displayIcon('id')"></span>
+    </th>
+    <th ng-click="sortData('title')">
+    	TITLE<span ng-class="displayIcon('title')"></span>
+    </th>
+    <th ng-click="sortData('body')">
+    	BODY<span ng-class="displayIcon('body')"></span>
+    </th>
+  </tr>
+  <tr ng-repeat="user in users | orderBy:sortColumn:reverseSort">
+    <td ng-bind=user.userId></td>
+    <td ng-bind=user.id></td>
+    <td ng-bind=user.title></td>
+    <td ng-bind=user.body></td>
+  </tr>
+</table>

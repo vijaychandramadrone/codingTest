@@ -12,11 +12,11 @@ var phonecatApp = angular.module('contactApp', [
 phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-	 when('/contacts', {
-        templateUrl: 'partials/contacts-list.html',
-        controller: 'ContactListCtrl'
+	 when('/users', {
+        templateUrl: 'html/userList.html',
+        controller: 'userListCtrl'
       }).
       otherwise({
-        redirectTo: '/contacts'
+        redirectTo: '/users'
       });
   }]);
