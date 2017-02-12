@@ -27,6 +27,4 @@ once all the required software are downloaded and installed, you are all good to
 * [http://localhost:8080/app/#/home](http://localhost:8080/app/#/home)*
 
 6) you can run unit test using commands **npm test** in git bash.
-Test results will be **Chrome 56.0.2924 (Windows 7 0.0.0): Executed 7 of 7 SUCCESS (0.124 secs / 0.118 secs)**
-
-7) You can find all unit test under **\codingTest\test\unit**
+Test results will be ** Chrome 56.0.2924 (Windows 7 0.0.0): Executed 7 of 7 SUCCESS (0.124 secs / 0.118 secs) **
