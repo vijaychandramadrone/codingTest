@@ -1,10 +1,10 @@
 'use strict';
-describe('Contacts App', function() {
+describe('Users App', function() {
 
-  it('should redirect index.html to index.html#/contacts', function() {
+  it('should redirect index.html to index.html#/users', function() {
     browser.get('app/index.html');
     browser.getLocationAbsUrl().then(function(url) {
-        expect(url.split('#')[1]).toBe('/contacts');
+        expect(url.split('#')[1]).toBe('/users');
       });
   });
 });
