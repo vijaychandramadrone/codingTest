@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/layout1.css">
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
@@ -18,10 +20,34 @@
   <script src="js/services.js"></script>
 </head>
 <body>
-
-  <div class="view-container">
-    <div ng-view class="view-frame"></div>
-  </div>
-
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header" style="text-align:center">
+            <p><h2>Coding Test</h2></p>
+        </div>
+        </div>
+        <div id="leftcolumnwrap">
+        <div id="leftcolumn">
+        	<div class="addspace">
+	            <ul>
+				  <li><a href="#home"><h4>Home</h4></a></li>
+				  <li><a href="#users"><h4>Users</h4></a></li>
+				</ul>
+			</div>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <div class="view-container">
+    			<div ng-view class="view-frame"></div>
+  			</div>
+        </div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+            <p>&copy;Rackspace 2017</p>
+        </div>
+        </div>
+    </div>
 </body>
 </html>

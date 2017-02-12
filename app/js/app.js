@@ -12,10 +12,13 @@ var phonecatApp = angular.module('userApp', [
 phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-	 when('/users', {
-        templateUrl: 'html/userList.html',
-        controller: 'userListCtrl'
+	 when('/home', {
+        templateUrl: 'html/welcome.html'
       }).
+      when('/users', {
+          templateUrl: 'html/userList.html',
+          controller: 'userListCtrl'
+        }).
       otherwise({
         redirectTo: '/users'
       });
